@@ -29,8 +29,8 @@ ALTER TABLE new_employees ADD COLUMN department TEXT;
 
 -- Inserting rows
 INSERT INTO new_employees (id, first_name, last_name, salary, department) VALUES
-  (1, 'John', 'Doe', 5000, 'Finance'),
-  (2, 'Jane', 'Smith', 6000, 'HR');
+  (1, 'Galileo', 'Galilei', 5000, 'HR'),
+  (2, 'Jasmine', 'Woods', 6000, 'PM');
 
 -- Updating a row
 UPDATE new_employees SET salary = 5500 WHERE id = 1;
