@@ -1,0 +1,35 @@
+#Task 1
+
+#Create a table
+
+#Create a table of your choice inside the sample SQLite database, rename it, and add a new column. Insert a couple rows inside your table. Also, perform UPDATE and DELETE statements on inserted rows.
+
+#As a solution to this task, create a file named: task1.sql, with all the SQL statements you have used to accomplish this task
+
+ 
+
+Task 2
+
+#Select queries
+
+#Use the sample SQLite database hr.db
+
+#SQLite database hr.db link:
+#https://lms.beetroot.academy:3005/bafile/d1093fe7-995d-44c9-8728-673af8914cf8.db?bearer=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJieCI6dHJ1ZSwiYnhzIjp0cnVlLCJ1c2VyTmFtZSI6IlN2aXRsYW5hIFBvbGlzaGNodWsgIiwidXNlciI6eyJpZCI6ImNsMzd0aWZiN3JnNGUwODI0NGdxamRrd20iLCJ1c2VyTmFtZSI6IlN2aXRsYW5hIFBvbGlzaGNodWsgIiwiZW1haWwiOiJsdW1lbmw4dDkzQGdtYWlsLmNvbSIsImFjdGl2YXRlZCI6dHJ1ZSwiaXNHZHByIjp0cnVlLCJ0ZXJtT2ZVc2UiOnRydWUsInJvbGVzIjpbIlJPTEVfU1RVREVOVCJdLCJhdmF0YXIiOm51bGwsInByb2ZpbGUiOnsiYXZhdGFyIjp7InBhdGgiOm51bGx9fSwiY2l0eSI6eyJpZCI6ImNrOWltbHE3aWVvcGgwNzM2c25mNDBnbmYiLCJuYW1lIjoiT3RoZXIifX0sImlhdCI6MTY4NDkzNDYxNywiZXhwIjoxNjg1NTM5NDE3fQ.-pVIjAoXN-GAhGF7odQB70ZeKR8AvkGjjVUpclCSVP0
+
+
+ 
+
+As a solution to HW, create a file named: task2.sql with all SQL queries:
+
+write a query to display the names (first_name, last_name) using alias name "First Name", "Last Name" from the table of employees;
+
+write a query to get the unique department ID from the employee table
+
+write a query to get all employee details from the employee table ordered by first name, descending
+
+write a query to get the names (first_name, last_name), salary, PF of all the employees (PF is calculated as 12% of salary)
+
+write a query to get the maximum and minimum salary from the employees table
+
+write a query to get a monthly salary (round 2 decimal places) of each and every employee
